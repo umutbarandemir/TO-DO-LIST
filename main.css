@@ -65,6 +65,11 @@ button{
     border-radius: 40px;
 }
 
+button:hover{
+    font-size: 20px;
+    
+}
+
 ul li{
     list-style: none;
     font-size: 17px;
@@ -84,7 +89,7 @@ ul li::before{
     background-image: url(images/unchecked.png);
     background-size: cover;
     background-position: center;
-    top: 12px;
+    top: 7px;
     left: 8px;
 }
 
@@ -108,6 +113,7 @@ ul li span{
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
+    /* border: white solid 1px; */
 }
 
 ul li span:hover{
@@ -117,3 +123,11 @@ ul li span:hover{
 ul li span:first-child {
     right: 45px; /* İlk span'ı sağdan 45px uzaklaştırarak, düzenleme ikonunu çöp kutusunun soluna koyar */
 }
+
+ul li span i:hover{
+    color: #ff5945;
+}
+
+/* ul li span i{
+    color: white;
+} */
