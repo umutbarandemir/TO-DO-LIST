@@ -25,6 +25,7 @@
 
 .todo-app h2{
     color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -65,10 +66,9 @@ button{
     border-radius: 40px;
 }
 
-button:hover{
-    font-size: 20px;
-    
-}
+/* button:hover{
+   
+} */
 
 ul li{
     list-style: none;
@@ -78,6 +78,10 @@ ul li{
     cursor: pointer;
     position: relative;
     color: white;
+}
+
+ul li:hover{
+    color:  #ff5945;
 }
 
 ul li::before{
