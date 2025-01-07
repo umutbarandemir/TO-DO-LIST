@@ -113,3 +113,7 @@ ul li span{
 ul li span:hover{
     background-color: #edeef0;
 }
+
+ul li span:first-child {
+    right: 45px; /* İlk span'ı sağdan 45px uzaklaştırarak, düzenleme ikonunu çöp kutusunun soluna koyar */
+}
